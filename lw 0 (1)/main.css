@@ -1,0 +1,10 @@
+body {
+  font-family: monospace;
+  text-align: center;
+  font-size: 64px;
+  color:black;
+  transition: 0.2s;
+}
+#clock {
+  font-weight: 300;
+}
