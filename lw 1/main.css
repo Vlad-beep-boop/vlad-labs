@@ -1,0 +1,135 @@
+.header {
+  font-family: New York Small;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+  padding: 0 15px;
+}
+.header__links {
+  display: flex;
+  justify-content: space-around;
+}
+.header__link {
+  margin: 0 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero__img {
+  height: 533px;
+}
+.header__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+.hero {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1100px;
+}
+.hero__description {
+  padding: 15px;
+  font-family: SF Mono, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: center;
+  color: #000000;
+  max-width: 400px;
+}
+.hero__title {
+  padding: 15px;
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 100%;
+  text-align: center;
+  color: #000000;
+  max-width: 800px;
+}
+body {
+  margin: 0px;
+}
+.header__line {
+  position: absolute;
+  bottom: 0;
+}
+.title {
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+.cards {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 305px 305px;
+  gap: 50px 20px;
+  justify-content: center;
+}
+.card__image {
+  width: 300px;
+}
+.card__text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+.shift-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  outline: none;
+}
+.night .card__text {
+  color: white;
+}
+.night {
+  background-color: rgb(39, 38, 38);
+}
+.night .title {
+  color: white;
+}
+.night .hero__title {
+  color: white;
+}
+.night .hero__description {
+  color: white;
+}
+.night .line {
+  background-color: white;
+}
+.night .header {
+  color: white;
+  border-color: white;
+}
